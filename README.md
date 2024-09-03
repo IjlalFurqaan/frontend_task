@@ -7,8 +7,8 @@ This project is a React-based frontend application for displaying and filtering 
 1. **Clone the repository**
 
    ```
-   git clone <repository-url>
-   cd chat-sessions-frontend
+   git clone <https://github.com/IjlalFurqaan/frontend_task.git>
+   cd  frontend_task
    ```
 
 2. **Install dependencies**
