@@ -37,7 +37,7 @@ This project is a React-based frontend application for displaying and filtering 
    npm start
    ```
 
-   The application should now be running on [http://localhost:3000](http://localhost:3000).
+   The application should now be running on [http://localhost:3000](http://localhost:3000) on your device though after your run command npm run dev.
 
 ## Project Structure
 
