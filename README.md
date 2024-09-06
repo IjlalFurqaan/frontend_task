@@ -5,39 +5,23 @@ This project is a React-based frontend application for displaying and filtering 
 ## Setup and Installation
 
 1. **Clone the repository**
-
    ```
-   git clone <https://github.com/IjlalFurqaan/frontend_task.git>
-   cd  frontend_task
+   git clone https://github.com/IjlalFurqaan/frontend_task.git
+   cd frontend_task
    ```
 
 2. **Install dependencies**
-
    Make sure you have Node.js and npm installed on your system. Then run:
-
    ```
    npm install
    ```
 
-3. **Environment Setup**
-
-   Create a `.env` file in the root directory and add the following:
-
-   ```
-   REACT_APP_API_URL=https://dev.brain-backend.dainstudios.com/challenge
-   ```
-
-   This sets up the base URL for the API calls.
-
-4. **Run the application**
-
+3. **Run the application**
    Start the development server:
-
    ```
    npm start
    ```
-
-   The application should now be running on [http://localhost:3000](http://localhost:3000) on your device though after your run command npm run dev.
+   The application should now be running on [http://localhost:3000](http://localhost:3000).
 
 ## Project Structure
 
@@ -93,7 +77,16 @@ Errors from API calls are caught and displayed using the `ErrorMessage` componen
 If you encounter any issues while setting up or running the application, please check the following:
 
 1. Ensure all dependencies are correctly installed (`npm install`).
-2. Verify that the API URL in the `.env` file is correct.
-3. Check your console for any error messages that might provide more information.
+2. Check your console for any error messages that might provide more information.
+3. Verify that the API URL in the `src/services/api.js` file is correct.
 
 If problems persist, please open an issue in the project repository.
+
+## Note on API URL
+
+The API URL is now hardcoded in the `src/services/api.js` file. If you need to change the API URL, you'll need to modify it directly in this file.
+
+## Contributing
+
+Contributions to improve the application are welcome. Please fork the repository and create a pull request with your changes.
+
