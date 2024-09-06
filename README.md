@@ -19,7 +19,7 @@ This project is a React-based frontend application for displaying and filtering 
 3. **Run the application**
    Start the development server:
    ```
-   npm start
+   npm run dev
    ```
    The application should now be running on [http://localhost:3000](http://localhost:3000).
 
