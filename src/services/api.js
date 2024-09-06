@@ -1,5 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
-
+const API_BASE_URL = "https://dev.brain-backend.dainstudios.com/challenge";
 
 export async function fetchChatSessions(startDate, endDate) {
   let url = `${API_BASE_URL}/chat_sessions`;
