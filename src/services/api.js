@@ -1,7 +1,7 @@
-const API_BASE_URL = "https://dev.brain-backend.dainstudios.com/challenge";
+const API_BASE_URL = "https://dev.brain-backend.dainstudios.com/challenge/chat_sessions/";
 
 export async function fetchChatSessions(startDate, endDate) {
-  let url = `${API_BASE_URL}/chat_sessions`;
+  let url = `${API_BASE_URL}`;
   
   if (startDate && endDate) {
     url += `?start_date=${startDate}&end_date=${endDate}`;
